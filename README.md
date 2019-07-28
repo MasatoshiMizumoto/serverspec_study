@@ -3,14 +3,15 @@ serverspec_study
 
 ## What is this?
 
-エンジニアリングスクール[RaiseTech](https://raise-tech.net/)のAWSフルコース第9回講座の課題：「Serverspecを使用してリソースのテスト」を実施したものです。
+エンジニアリングスクール[RaiseTech](https://raise-tech.net/)のAWSフルコース第9回講座の課題：「Serverspecを使用してAWS上に構築したリソースのテスト」を実施したものです。
 - 本課題に関して詳細な手順書等のドキュメントはスクールより提供されておらず、主に検索サイトで入手可能な情報を元に作成しています。
 
 
-## 構成
+## 構成・条件
 
 - EC2,RDS,ALB,S3の構成
-- 詳細はlayout/layout.pngをご覧ください。
+- 構成図はlayout/layout.pngをご覧ください。
+- テストはテスト対象のEC2内(localhost)にて実行
 
 ## 動作環境
 
@@ -20,7 +21,6 @@ serverspec_study
 - ruby 2.6.3p62 (2019-04-16 revision 67580)
 - Rails 5.2.3
 - nginx version: nginx/1.12.2
-- テスト対象のEC2内(localhost)にて実行
 
 ## 導入
 
